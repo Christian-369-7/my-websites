@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 65.5%;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+}
+.header1 {
+  background-image: url("../img/merBlack.png"),
+    linear-gradient(#000000, rgba(0, 0, 0, 0.695));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.header2 {
+  background-image: url("../img/merGreen.png"),
+    linear-gradient(#0c630c, rgba(0, 0, 0, 0.464));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.header3 {
+  background-image: url("../img/merRed.png"),
+    linear-gradient(#890b0b, rgba(0, 0, 0, 0.464));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.top-nav-container {
+  width: 120rem;
+  margin: 0 auto;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+.top-nav-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem;
+}
+
+.top-nav-container a:hover {
+  border: 0.2rem solid #fff;
+}
+
+.change-car {
+  background-color: #000000b1;
+  width: 26rem;
+  height: 5.8rem;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+}
+.color-1,
+.color-2,
+.color-3 {
+  border: 2px solid #fff;
+}
+.color-1:hover,
+.color-2:hover,
+.color-3:hover {
+  background-color: #514e4e;
+}
+.color-1 {
+  background-color: #000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.color-2 {
+  background-color: #008000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.color-3 {
+  background-color: #ff0000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.btn-open {
+  cursor: pointer;
+}
+/* =================================================== */
+/* menu */
+
+.menu-container {
+  z-index: 9;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-101%);
+  transition: 0.6s;
+}
+/* .menu-items {
+  transition: 2s;
+} */
+.menu-items li {
+  list-style: none;
+  margin: 6rem 0;
+  font-size: 8rem;
+}
+.menu-items li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-items li a:hover {
+  text-decoration: underline;
+}
+.menu-bck-shadow {
+  background-color: rgba(0, 0, 0, 0.473);
+  backdrop-filter: blur(0.8rem);
+  opacity: 10;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.btn-x {
+  cursor: pointer;
+  font-size: 12rem;
+  text-align: right;
+  position: absolute;
+  top: 4%;
+  right: 54%;
+  text-align: center;
+}
+
+.fix-menu {
+  transform: translateX(101%);
+}
+.fix {
+  display: block;
+}
+
+/* =================================================== */

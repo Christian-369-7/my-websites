@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/info.css" />
+  </head>
+  <body>
+    <header class="header-info">
+      <div class="img-container">
+        <img src="img/car-infos.jpg" class="img-info" />
+      </div>
+
+      <div class="f-container">
+        <a href="index.html" class="homepage-info">Go to Home</a>
+        <div class="form-container">
+          <form>
+            <label for="fullname">Full name</label>
+            <input
+              type="text"
+              placeholder="Your fullname"
+              name="fullname"
+              class="fullname"
+              id="fullname"
+              required
+            />
+
+            <label for="country">Country</label>
+            <select name="country" class="country" id="country" required>
+              <option value="philippines">Philippines</option>
+              <option value="japan">Japan</option>
+              <option value="china">China</option>
+              <option value="newzealand">New Zealand</option>
+            </select>
+
+            <label for="comment">Comments</label>
+            <textarea
+              name="comment"
+              placeholder="comment here.."
+              class="comment"
+              id="comment"
+              required
+            ></textarea>
+
+            <br /><br /><br />
+            <button class="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- =============================================================================== -->
+
+    <!-- <script src="JS/script.js"></script> -->
+  </body>
+</html>
